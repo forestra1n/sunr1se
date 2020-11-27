@@ -1,0 +1,25 @@
+[
+  {
+    "type": 1,
+    "platform": "linux",
+    "network": "redcloud_default",
+    "title": "4gproxy",
+    "description": "4gproxy with huawei gsm modems",
+    "name": "4gproxy",
+    "interactive": true,
+    "logo": "https://xn--90a5ai.com/700x700_trans_bayer.png",
+    "image": "snowbars/proxy:",
+    "restart_policy": "unless-stopped",
+    "categories": ["proxy"],
+    "ports": [
+      "4452:4452/tcp",
+      "4451:4451/tcp",
+      "4450:4450/tcp",
+      "4449:4449/tcp",
+      "4448:4448/tcp",
+      "4447:4447/tcp",
+      "4446:4446/tcp",
+      "4445:4445/tcp"
+      ]
+    } 
+]
